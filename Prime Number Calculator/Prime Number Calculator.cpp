@@ -169,7 +169,7 @@ void listDivisors(int number, vector<int>& divisors)
 {
 	double root = sqrt(number);
 
-	if (number % 2 == 0)
+	if (number % 2 == 0) //list divisors of even numbers
 	{
 		for (int i = 2; i <= root; i += 2)
 		{
@@ -180,7 +180,7 @@ void listDivisors(int number, vector<int>& divisors)
 		}
 		findRest(divisors, number); //find rest of divisors
 	}
-	else
+	else //list divisors of odd numbers
 	{
 		for (int i = 3; i <= root; i += 2)
 		{
@@ -188,8 +188,8 @@ void listDivisors(int number, vector<int>& divisors)
 			{
 				divisors.push_back(i);
 			}
-			findRest(divisors, number);
 		}
+		findRest(divisors, number);
 	}
 }
 
