@@ -2,7 +2,7 @@ Quick Math Program 2 - Prime Number Calculator
 
 Created - 11/11/18 by Jonah Alexander-Awad
 
-Last Modified - 12/8/18 by Jonah Alexander-Awad
+Last Modified - 1/4/18 by Jonah Alexander-Awad
 
 
 NOTES:
@@ -13,3 +13,5 @@ under 25 (5^2) - 1
 under 49 (7^2) - 2
 under 81 (9^2) - 3
 under 121(11^2)- 4
+under 169(13^2)- 5
+...
